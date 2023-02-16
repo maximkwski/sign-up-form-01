@@ -1,3 +1,8 @@
+@font-face {
+    font-family: GenosFont;
+    src: url(./Genos-VariableFont_wght.ttf);
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -9,10 +14,48 @@ body {
     flex-direction: row;
 }
 
+div.logo {
+    position: relative;
+    text-align: center;
+    color: white
+}
+
 div.main {
-    padding: 20px;
+    padding: 40px;
 }
 
 div.logo img {
     width: 500px;
+}
+
+div.logo #logo-icon {
+    width: 100px;
+}
+
+div.logo .banner{
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: GenosFont;
+    font-size: 7em;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+}
+
+div.logo p {
+    position: absolute;
+    font-size: 12px;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    color: black
+}
+
+div.logo a {
+    color: black
 }
