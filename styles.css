@@ -77,7 +77,7 @@ div.input-area {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    gap: 8px 48px;
+    gap: 10px 52px;
 }
 
 div.input-area h3 {
@@ -91,6 +91,12 @@ div.input-area input {
     padding: 4px;
     border: 1px solid #E5E7EB;
     border-radius: 5px;
+    margin-top: 4px;
+}
+
+div.input-area input:focus {
+    box-shadow: 2px 4px 5px #cecfcd;
+    
 }
 
 div.input-area label {
@@ -124,4 +130,15 @@ div.signup-login a {
     text-decoration: none;
     color: #708a58;
     font-weight: 600;
+}
+
+div.error {
+    width: 100%;
+    display: none;
+}
+
+/* form validation */
+
+input:invalid {
+    border-color: red;
 }
