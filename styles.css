@@ -134,7 +134,8 @@ div.signup-login a {
 
 div.error {
     width: 100%;
-    display: none;
+    height: 10px;
+    color: red;
 }
 
 /* form validation */
