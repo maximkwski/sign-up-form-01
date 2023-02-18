@@ -30,27 +30,27 @@
                     <h3>Let's do this!</h3>
                     <div>
                         <label for="first-name">First Name</label><br>
-                        <input type="text" id="first-name" name="first-name" required pattern="^\D*$">
+                        <input type="text" id="first-name" name="first-name" placeholder=" " minlength="2" required pattern="^\D*$">
                     </div>
                     <div>
                         <label for="last-name">Last Name</label><br>
-                        <input type="text" id="last-name" name="last-name" required pattern="^\D*$">
+                        <input type="text" id="last-name" name="last-name" placeholder=" " minlength="2" required pattern="^\D*$">
                     </div>
                     <div>
                         <label for="email">Email</label><br>
-                        <input type="email" name="email" id="email" required>
+                        <input type="email" name="email" id="email" placeholder=" " required>
                     </div>
                     <div>
                         <label for="phone">Phone number</label><br>
-                        <input type="tel" id="phone" name="phone" required pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$">
+                        <input type="tel" id="phone" name="phone" placeholder=" " required pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$">
                     </div>
                     <div>
                         <label for="password">Password</label><br>
-                        <input type="password" name="password" id="password" required>
+                        <input type="password" name="password" id="password" placeholder=" " required>
                     </div>
                     <div>
                         <label for="confirm-pwd">Confirm password</label><br>
-                        <input type="password" name="confirm-pwd" id="confirm-pwd" required>
+                        <input type="password" name="confirm-pwd" id="confirm-pwd" placeholder=" " required>
                     </div>
                     <div class="error"></div>
                 </div>
